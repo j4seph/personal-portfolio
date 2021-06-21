@@ -4,12 +4,13 @@
 	box-sizing: border-box;
 	background: black;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 html,
 body {
-	width: 100%;
-	position: relative;
+	width: 100% !important;
+	position: relative !important;
 }
 
 h1 {
