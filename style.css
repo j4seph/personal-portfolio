@@ -6,6 +6,12 @@
 	scroll-behavior: smooth;
 }
 
+html,
+body {
+	width: 100%;
+	position: relative;
+}
+
 h1 {
 	font-family: "Montserrat", sans-serif;
 	color: white;
