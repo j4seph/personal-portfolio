@@ -4,7 +4,12 @@
 	box-sizing: border-box;
 	background: black;
 	scroll-behavior: smooth;
-	overflow-x: hidden;
+}
+
+html,
+body {
+	width: 100%;
+	position: relative;
 }
 
 h1 {
@@ -23,7 +28,7 @@ h2 {
 h3 {
 	text-decoration: none;
 	font-family: "Nunito", sans-serif;
-	color: white;
+	color: white !important;
 	background: #1c1c1c;
 	font-size: 20px;
 	font-weight: 600;
@@ -130,6 +135,7 @@ ul {
 
 .hero-left {
 	margin-right: 50px;
+	overflow-y: hidden;
 }
 
 .hero-image {
@@ -273,6 +279,10 @@ footer a {
 /* Media */
 
 @media only screen and (max-width: 1322px) {
+	body {
+		overflow-x: hidden;
+	}
+
 	/* Burger Menu */
 
 	#burger {
