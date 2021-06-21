@@ -16,7 +16,7 @@ body {
 h1 {
 	font-family: "Montserrat", sans-serif;
 	color: white;
-	font-size: 32px;
+	font-size: 30px;
 }
 
 h2 {
@@ -142,6 +142,7 @@ ul {
 .hero-image {
 	width: 700px;
 	height: auto;
+	overflow-y: hidden;
 }
 
 /* Link Button */
