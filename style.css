@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	background: black;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 h1 {
@@ -272,10 +273,6 @@ footer a {
 /* Media */
 
 @media only screen and (max-width: 1322px) {
-	body {
-		overflow-x: hidden;
-	}
-
 	/* Burger Menu */
 
 	#burger {
