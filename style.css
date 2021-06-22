@@ -13,6 +13,10 @@ body {
 	position: relative !important;
 }
 
+body {
+	overflow-y: hidden;
+}
+
 h1 {
 	font-family: "Montserrat", sans-serif;
 	color: white;
@@ -132,6 +136,7 @@ ul {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	overflow-y: hidden;
 }
 
 .hero-left {
@@ -278,7 +283,7 @@ footer a {
 	width: 100px;
 }
 
-/* Media */
+/* Different view ports */
 
 @media only screen and (max-width: 1322px) {
 	body {
@@ -287,9 +292,14 @@ footer a {
 
 	/* Burger Menu */
 
+	header {
+		overflow-y: hidden;
+	}
+
 	#burger {
 		display: block;
 		cursor: pointer;
+		overflow-y: hidden;
 	}
 
 	.nav-links {
@@ -306,11 +316,13 @@ footer a {
 		z-index: 1;
 		transform: translateX(140%);
 		transition: transform 0.3s ease-in-out;
+		overflow-y: hidden;
 	}
 
 	nav li,
 	nav .nav-link {
 		background: rgb(69, 103, 255);
+		overflow-y: hidden;
 	}
 
 	.line-1,
@@ -396,14 +408,15 @@ footer a {
 
 	.game {
 		display: block;
+		width: 100%;
 	}
 
 	.game-left {
 		margin-bottom: 16px;
 	}
 
-	.game-left img {
-		width: 115%;
+	.games-image {
+		width: 100%;
 		max-width: 700px;
 	}
 
@@ -422,5 +435,14 @@ footer a {
 	#stills img {
 		width: 100%;
 		/* max-width: 100%; */
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	h1,
+	h2,
+	h3,
+	p {
+		width: 100%;
 	}
 }
