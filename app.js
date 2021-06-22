@@ -1,9 +1,11 @@
+const body = document.querySelector('body');
 const fadeTwo = document.querySelector('#fade-2');
 const fadeThree = document.querySelector('.fade-3');
 const fadeThreeArray = document.querySelectorAll('.fade-3');
 const burger = document.querySelector('#burger');
 const navLinks = document.querySelector('.nav-links');
 const escKey = 27;
+
 
 // Fade Animations
 
