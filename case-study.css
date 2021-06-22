@@ -365,6 +365,10 @@ footer a {
 		margin-bottom: -50px;
 	}
 
+	.reps-reopening-mockups {
+		overflow-y: hidden;
+	}
+
 	/* Summary */
 
 	.summary {
@@ -389,11 +393,13 @@ footer a {
 	.pictures {
 		display: block;
 		margin: 50px 0;
+		
 	}
 
 	.picture {
 		width: 100%;
 		margin: 16px 0;
+		
 	}
 }
 
