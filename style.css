@@ -56,20 +56,10 @@ a {
 
 /* Fade in Animations */
 
-#fade-1 {
-	animation: fade ease 1.8s;
-}
-
-#fade-2 {
+.fade {
 	opacity: 0;
 	animation: fade ease 1.8s;
-	animation-delay: 2s;
-}
-
-.fade-3 {
-	opacity: 0;
-	animation: fade ease 1.8s;
-	animation-delay: 4s;
+	animation-delay: 0.2s;
 }
 
 .done {

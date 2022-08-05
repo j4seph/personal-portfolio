@@ -1,7 +1,6 @@
 const body = document.querySelector('body');
-const fadeTwo = document.querySelector('#fade-2');
-const fadeThree = document.querySelector('.fade-3');
-const fadeThreeArray = document.querySelectorAll('.fade-3');
+const fade = document.querySelector('.fade');
+const fadeArray = document.querySelectorAll('.fade');
 const burger = document.querySelector('#burger');
 const navLinks = document.querySelector('.nav-links');
 const escKey = 27;
@@ -9,14 +8,10 @@ const escKey = 27;
 
 // Fade Animations
 
-fadeTwo.addEventListener('animationend', () => {
-    fadeTwo.classList.add('done');
-});
-
-fadeThree.addEventListener('animationend', () => {
-   fadeThreeArray.forEach((x) => {
-       x.classList.add('done');
-   })
+fade.addEventListener('animationend', () => {
+    fadeArray.forEach((x) => {
+        x.classList.add('done');
+    })
 });
 
 // Burger Menu
